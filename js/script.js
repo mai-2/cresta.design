@@ -23,7 +23,10 @@ $('.slider').slick( {
     autoplaySpeed: 2000,
     speed: 1000,
     fade: true,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    pauseOnFocus: false,
+pauseOnHover: false,
+pauseOnDotsHover: false,
 });
 
 // ハンバーガーメニュー
